@@ -1,0 +1,10 @@
+{
+  "presets": ["latest", "stage-1"],
+  "plugins": [
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }],
+    "transform-jsx"
+  ]
+}

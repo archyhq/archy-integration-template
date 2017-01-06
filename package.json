@@ -1,0 +1,28 @@
+{
+  "name": "archy-integration-template",
+  "version": "0.1.0",
+  "author": "Frontendy Inc <team@frontendy.com>",
+  "description": "A template of integration for Archy.ai",
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.18.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "start": "node lib/server",
+    "dev": "babel-node src/server.js -s inline",
+    "build": "BABEL_ENV=production babel src --out-dir lib"
+  },
+  "engines": {
+    "node": "^6.4.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-jsx": "^2.0.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0"
+  }
+}
